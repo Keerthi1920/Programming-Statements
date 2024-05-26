@@ -1,0 +1,100 @@
+1. Write a Python program to find the number of times 4 appears in the tuple. 
+
+Input: tuplex = (2, 4, 5, 6, 2, 3, 4, 4, 7 ) 
+
+
+# Define the tuple
+tuplex = (2, 4, 5, 6, 2, 3, 4, 4, 7)
+
+#count method to find the number of times 4 appears in the tuple
+count = tuplex.count(4)
+print("The number 4 appears", count, "times in the tuple.")
+
+OutPut:
+The number 4 appears 3 times in the tuple.
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+2.Write a Python program to convert a list to a tuple. 
+
+Input: listx = [5, 10, 7, 4, 15, 3] 
+
+# Define the list
+listx = [5, 10, 7, 4, 15, 3]
+
+# Convert the list to a tuple
+tuplex = tuple(listx)
+print("The tuple is:", tuplex)
+
+
+Output:
+The tuple is: (5, 10, 7, 4, 15, 3)
+
+
+------------------------------------------------------------------------------------------------------------------
+
+3. Write a Python program to calculate the sum of the numbers in a given tuple. 
+
+Input: tuples_list = [(1, 2), (3, 4), (5, 6)]
+
+# Define the list of tuples
+tuples_list = [(1, 2), (3, 4), (5, 6)]
+
+# Initialize a variable to store the sum
+total_sum = 0
+
+# Iterate through each tuple in the list
+for i in tuples_list:
+    # Add the sum of the current tuple to the total sum
+    total_sum += sum(i)
+print("The sum of all the numbers in the tuple list is:", total_sum)
+
+
+Output:
+The sum of all the numbers in the tuple list is: 21
+-------------------------------------------------------------------------------------------------------------------------
+
+4.Write a python program and iterate the given tuples
+
+ Input: 
+
+employee1 = ("John Doe", 101, "Human Resources", 60000) 
+
+employee2 = ("Alice Smith", 102, "Marketing", 55000) 
+
+employee3 = ("Bob Johnson", 103, "Engineering", 75000)
+
+
+# Define the tuples
+employee1 = ("John Doe", 101, "Human Resources", 60000)
+employee2 = ("Alice Smith", 102, "Marketing", 55000)
+employee3 = ("Bob Johnson", 103, "Engineering", 75000)
+
+# Create a list of employees to iterate over
+employees = [employee1, employee2, employee3]
+
+# Iterate through each employee tuple
+for employee in employees:
+    # Print each attribute of the employee
+    for attribute in employee:
+        print(attribute)
+    print()
+
+Output:
+John Doe
+101
+Human Resources
+60000
+
+Alice Smith
+102
+Marketing
+55000
+
+Bob Johnson
+103
+Engineering
+75000
+
+-----------------------------------------------------------------------------------------------------------------------------------
